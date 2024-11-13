@@ -2,9 +2,9 @@ package studio8;
 
 public class SelectAllQuestion extends MultipleChoiceQuestion {
 
-	public SelectAllQuestion(String prompt, String answer, String[] choices) {
-		//Hint: 1 point per choice
-		//FIXME
+	public SelectAllQuestion(String prompt, String answer, int points, String[] choices) {
+		super(prompt, answer, points, choices);
+
 	}
 	
 	public int checkAnswer(String givenAnswer) {
